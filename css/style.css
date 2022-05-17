@@ -341,11 +341,33 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body {
+  font-family: 'Gilroy';
 }
 
 .header-container {
@@ -375,7 +397,8 @@ template {
 
 .navbar-item__link {
   text-decoration: none;
-  font-family: 'Gilroy-Bold';
+  font-family: 'Gilroy';
+  font-weight: 700;
   font-size: 18px;
   line-height: 22px;
   color: #828282;
@@ -396,12 +419,20 @@ template {
 }
 
 .author-about {
-  font-family: 'Gilroy-Medium';
+  font-family: 'Gilroy';
+  font-weight: 500;
+  width: 156px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .author-name {
   width: 125px;
   margin: 0;
+  font-family: 'Gilroy';
+  font-size: 48px;
+  line-height: 59px;
+  font-weight: 700;
 }
 
 .author-photo {

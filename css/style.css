@@ -404,6 +404,10 @@ body {
   color: #828282;
 }
 
+.navbar-item__link:hover {
+  color: black;
+}
+
 .author {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -437,5 +441,36 @@ body {
 
 .author-photo {
   margin-bottom: 105px;
+}
+
+.about {
+  background: #F6F6F6;
+  padding-top: 120px;
+  padding-bottom: 110px;
+}
+
+.about-container {
+  max-width: 485px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-title {
+  margin: 0;
+  margin-bottom: 18px;
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 700;
+}
+
+.about-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.about-text__2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 /*# sourceMappingURL=style.css.map */

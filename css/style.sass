@@ -1,0 +1,42 @@
+@import "normalize"
+
+
+*
+  box-sizing: border-box
+  padding: 0
+  margin: 0
+
+.header-container
+  max-width: 940px
+  margin: auto
+
+.navbar
+  display: flex
+  justify-content: space-between
+  padding-top: 32px
+  padding-bottom: 32px
+  margin: 0
+  &-underline
+    border: 1px solid #828282
+  &-item
+    list-style-type: none
+    &__link
+      text-decoration: none
+      font-family: 'Gilroy-Bold'
+      font-size: 18px
+      line-height: 22px
+      color: #828282
+.author
+  display: flex
+  justify-content: space-between
+  align-items: flex-end
+  margin-top: 40px
+  margin-bottom: 50px
+  &-about
+    font-family: 'Gilroy-Medium'
+  &-name
+    width: 125px
+    margin: 0
+  &-photo
+    margin-bottom: 105px
+    

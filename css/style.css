@@ -586,4 +586,72 @@ body {
 .portfolio__reebok {
   margin-bottom: 100px;
 }
+
+.contacts {
+  text-align: center;
+  padding-top: 115px;
+  padding-bottom: 125px;
+}
+
+.contacts__title {
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.contacts__subtitle {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.contacts__button {
+  background: #070707;
+  border-radius: 50px;
+  width: 180px;
+  height: 42px;
+  border: 0;
+  color: #fff;
+  margin-bottom: 85px;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.contacts__button:hover {
+  background-color: #2EE59D;
+  -webkit-box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+          box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.contacts__media {
+  max-width: 345px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+}
+
+.contacts__media-info {
+  margin-top: 45px;
+  color: #828282;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+.contacts__media-link {
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */

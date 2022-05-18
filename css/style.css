@@ -550,4 +550,40 @@ body {
 .soft-rate__fig {
   margin-top: auto;
 }
+
+.portfolio {
+  text-align: center;
+  background-color: #F6F6F6;
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+.portfolio__title {
+  margin-bottom: 50px;
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 700;
+}
+
+.portfolio__picture {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 45px;
+}
+
+.portfolio__link {
+  color: black;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.portfolio__fashion {
+  margin-bottom: 100px;
+}
+
+.portfolio__reebok {
+  margin-bottom: 100px;
+}
 /*# sourceMappingURL=style.css.map */

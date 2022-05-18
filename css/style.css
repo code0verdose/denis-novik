@@ -659,7 +659,21 @@ body {
 
 @media (max-width: 992px) {
   .container {
-    max-width: 90%;
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 95%;
+  }
+  header {
+    display: none;
+  }
+  .author-info {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 /*# sourceMappingURL=style.css.map */

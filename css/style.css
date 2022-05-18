@@ -370,7 +370,7 @@ body {
   font-family: 'Gilroy';
 }
 
-.header-container {
+.container {
   max-width: 940px;
   margin: auto;
 }
@@ -409,23 +409,17 @@ body {
 }
 
 .author {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
   margin-top: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 105px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .author-about {
   font-family: 'Gilroy';
   font-weight: 500;
-  width: 156px;
   font-size: 18px;
   line-height: 22px;
 }
@@ -440,7 +434,22 @@ body {
 }
 
 .author-photo {
-  margin-bottom: 105px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.author-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 50px;
 }
 
 .about {
@@ -526,6 +535,11 @@ body {
   max-height: 207px;
   max-width: 166px;
   overflow: hidden;
+}
+
+.star-icon {
+  margin-right: 3px;
+  margin-left: 3px;
 }
 
 .icon {

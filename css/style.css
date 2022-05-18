@@ -487,12 +487,10 @@ body {
   margin-bottom: 40px;
 }
 
-.skills-container {
-  max-width: 940px;
-  text-align: center;
-  margin: auto;
+.skills {
   padding-top: 90px;
   padding-bottom: 110px;
+  text-align: center;
 }
 
 .skills-title {
@@ -657,5 +655,11 @@ body {
 
 .contacts__media-link {
   text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 90%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

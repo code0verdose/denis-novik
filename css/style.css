@@ -517,6 +517,8 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 85px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .skills-soft__name {
@@ -784,13 +786,13 @@ body {
 
 @media (max-width: 768px) {
   .container {
-    max-width: 95%;
+    max-width: 90%;
   }
   header {
     display: none;
   }
   .author {
-    margin-top: 68px;
+    margin-top: 50px;
   }
   .author-info {
     -webkit-box-orient: vertical;
@@ -805,12 +807,64 @@ body {
     margin-bottom: 23px;
   }
   .skills-soft {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    max-width: 450px;
+    margin: auto;
+    margin-top: 70px;
+  }
+  .soft-container:first-child {
+    margin-bottom: 80px;
+  }
+  .soft-container:nth-child(2) {
+    margin-bottom: 80px;
   }
   .menuToggle {
     display: block;
     position: fixed;
+  }
+}
+
+@media (max-width: 568px) {
+  .author-photo {
+    display: none;
+  }
+  .author-photo__adaptive {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .about-container {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .author {
+    margin-bottom: 85px;
+  }
+  .author-info {
+    margin-bottom: 36px;
+  }
+  .about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .skills {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .portfolio {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .portfolio__fashion {
+    margin-bottom: 75px;
+  }
+  .portfolio__reebok {
+    margin-bottom: 75px;
+  }
+  .contacts {
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 /*# sourceMappingURL=style.css.map */

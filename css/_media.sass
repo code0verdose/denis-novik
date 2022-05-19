@@ -5,13 +5,13 @@
 
 @media (max-width: 768px)
   .container
-    max-width: 95%
+    max-width: 90%
 
   header
     display: none
 
   .author
-    margin-top: 68px
+    margin-top: 50px
     &-info
       flex-direction: column
       align-items: flex-start
@@ -19,9 +19,47 @@
       margin-bottom: 23px
 
   .skills-soft
-    flex-wrap: wrap
+    max-width: 450px
+    margin: auto
+    margin-top: 70px
 
+  .soft-container
+    &:first-child
+      margin-bottom: 80px
+    &:nth-child(2)
+      margin-bottom: 80px
+      
   .menuToggle
     display: block
     position: fixed
 
+@media (max-width: 568px)
+  .author-photo
+    display: none
+    &__adaptive
+      display: block
+      width: 100%
+      height: auto
+  .about-container
+    max-width: 80%
+@media (max-width: 375px)
+  .author
+    margin-bottom: 85px
+    &-info
+      margin-bottom: 36px
+  .about
+    padding-top: 80px
+    padding-bottom: 80px
+  .skills
+    padding-top: 80px
+    padding-bottom: 80px
+  .portfolio
+    padding-top: 80px
+    padding-bottom: 80px
+    &__fashion
+      margin-bottom: 75px
+    &__reebok
+      margin-bottom: 75px
+  .contacts
+    padding-top: 80px
+    padding-bottom: 80px
